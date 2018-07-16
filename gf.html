@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>love</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="gf.css" />
+</head>
+<body>
+    <div>
+        <p>做佳佳的女票好吗？</p>
+        <button id="1" onmouseover="change1()" onclick="success()">好的</button>
+        <button id="2" onmouseover="change2()" onclick="success()">不好</button>
+    </div>
+</body>
+<script>
+    function change1() {
+        document.getElementById("1").innerHTML="好的";
+        document.getElementById("2").innerHTML="不好";
+    }
+    function change2() {
+        document.getElementById("1").innerHTML="不好";
+        document.getElementById("2").innerHTML="好的";
+    }
+    function success() {
+        alert("恭喜你获得一个佳佳");
+    }
+</script>
+</html>

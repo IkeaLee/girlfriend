@@ -1,0 +1,34 @@
+div {
+    width:30vw;
+    height:18vw;
+    margin-top:15vw;
+    margin-left:32vw;
+    padding:1vw;
+    background: url(rose.jpg);
+    opacity:0.5;
+}
+p {
+    font-size: 3vw;
+    font-family:"楷体";
+    color: 	#FCFCFC;
+}
+button {
+    background-color: #FFEFDB;
+    border: none;
+    color: 	#F08080;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+button:hover {
+    background-color:#FFD39B;
+}
+@media screen and (max-width:780px){
+    div {
+        display:none;
+     }
+   }
